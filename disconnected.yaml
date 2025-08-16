@@ -33,3 +33,8 @@ monitors:
     height: 1080
     scale: 2
     position: right-of A
+
+  BAD:
+    width: 1920
+    height: 1080
+    scale: 2
