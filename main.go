@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/almondheil/monitor_position"
+	"github.com/almondheil/libmonpos"
 )
 
 func main() {
-	err, config := monitor_position.ReadConfig("./example.yaml")
+	err, config := libmonpos.ReadConfig("./example.yaml")
 	if err != nil {
 		panic(err)
 	}
