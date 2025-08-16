@@ -1,0 +1,3 @@
+# local development versions of go.mod and go.sum
+local.mod
+local.sum
