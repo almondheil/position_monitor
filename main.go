@@ -12,11 +12,16 @@ func main() {
 		panic(err)
 	}
 
-	order, err := libmonpos.FindMonitorOrder(config)
+	graph, err := libmonpos.LoadGraph(config)
+	if err != nil {
+		panic(err)
+	}
+
+	positions, err := libmonpos.GeneratePositions(config, graph)
 	if err != nil {
 		panic(err)
 	}
 
 	fmt.Printf("%v\n", config)
-	fmt.Printf("%v\n", order)
+	fmt.Printf("%v\n", positions)
 }
