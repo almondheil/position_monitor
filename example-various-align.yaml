@@ -1,0 +1,40 @@
+monitors:
+  A:
+    width: 200
+    height: 100
+
+  B:
+    width: 100
+    height: 100
+    position: below A
+    align: right
+
+  C:
+    width: 100
+    height: 100
+    position: below A
+    align: left
+
+  D:
+    width: 100
+    height: 200
+    position: right-of A
+    align: bottom
+
+  E:
+    width: 100
+    height: 200
+    position: left-of A
+    align: top
+
+  F:
+    width: 100
+    height: 100
+    position: above A
+    align: right
+
+  G:
+    width: 200
+    height: 100
+    position: above E
+    align: left
